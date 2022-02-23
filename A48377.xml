@@ -1,0 +1,435 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at Whitehal upon the 29th day of May, 1670 being the day of His Majesties birth and happy restoration / by John Lake ...</title>
+            <author>Lake, John, 1624-1689.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1670</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 58 KB of XML-encoded text transcribed from 27 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A48377</idno>
+            <idno type="STC">Wing L197</idno>
+            <idno type="STC">ESTC R8143</idno>
+            <idno type="EEBO-CITATION">12922440</idno>
+            <idno type="OCLC">ocm 12922440</idno>
+            <idno type="VID">95419</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A48377)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 95419)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 387:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at Whitehal upon the 29th day of May, 1670 being the day of His Majesties birth and happy restoration / by John Lake ...</title>
+                  <author>Lake, John, 1624-1689.</author>
+               </titleStmt>
+               <extent>[2], 50 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Tho. Newcomb for William Grantham ...,</publisher>
+                  <pubPlace>Savoy :</pubPlace>
+                  <date>1670.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Published by His Majesties command"</note>
+                  <note>Marginal notes.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Charles --  II, --  King of England, 1630-1685 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Leah Yurasek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Leah Yurasek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:95419:1"/>
+            <pb facs="tcp:95419:1" rendition="simple:additions"/>
+            <p>A SERMON PREACHED AT WHITEHAL UPON The 29<hi rend="sup">th</hi> day of <hi>May.</hi> 1670.</p>
+            <p>Being the day of HIS MAJESTIES BIRTH AND HAPPY RESTORATION.</p>
+            <p>By <hi>JOHN LAKE.</hi> D. D. Late Rector of S. <hi>Botolphs</hi> without <hi>Biſhopſgate, London.</hi>
+            </p>
+            <p>
+               <hi>Publiſhed by His Majeſties Command.</hi>
+            </p>
+            <p>
+               <hi>SAVOY:</hi> Printed by <hi>Tho. Newcomb</hi> for <hi>William Grantham</hi> at the ſign of the Bear in S. <hi>Paul</hi>'s Church-yard. 1670.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:95419:2"/>
+            <pb n="1" facs="tcp:95419:2"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSAL. II. 6.</hi>
+                  </bibl>
+                  <p>Yet have I ſet my King upon my holy Hill of <hi>Sion.</hi>
+                  </p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">U</seg>Pon an Exaltation Time, here is an Exaltation Text. The Text relateth to one perſon, the Time to another: But Kings both, Gods own Kings both, both reſiſted and rejected of Men, yet both ſet by God <hi>up<g ref="char:EOLhyphen"/>on his holy Hill of</hi> Sion.</p>
+            <p>This King taken literally, no doubt was King <hi>David,</hi> both the Author, and ſubject matter of this <hi>Pſalm.</hi> Taken myſtically, it is Chriſt, the King of Saints; whoſe Fa<g ref="char:EOLhyphen"/>ther,
+<pb n="2" facs="tcp:95419:3"/>as <hi>David</hi> was according to the Fleſh, ſo he was a Figure of him in his Kingdom. Analogically, and in juſt proportion of Reaſon, it extendeth to all other Kings du<g ref="char:EOLhyphen"/>ly conſtituted; at leaſt, ſuch as ſerve and worſhip the true God, and ſubmit their Scepter to that of Chriſt.</p>
+            <p>All Chriſtian Kings this King compriſeth then, but ſome more eſpecially; ſuch as have a more direct correſpondence with <hi>David,</hi> in the like occurrences and events.</p>
+            <p>Upon this peculiar accompt cometh in our King, above moſt Kings that have been in the World, ſince <hi>Davids</hi> time. Set up, and ſet up in the ſame manner, by the ſame means, or rather by the ſame immediate Hand of Providence that <hi>David</hi> was. Never might God have ſaid with greater emphaſis, or more apt ſignification, <hi>Yet have I ſet my King upon my holy Hill of</hi> Sion.</p>
+            <p>And as the Text ſuteth the Perſon of our King, ſo at this time, more particularly, Upon this very day he was born to the hopes and expectations of Three King<g ref="char:EOLhyphen"/>doms; and upon this ſame day (by a
+<pb n="3" facs="tcp:95419:3"/>ſtrange concurrence of Providences) he was brought back, after a long and tedious baniſhment, to the poſſeſſion and enjoyment of them.</p>
+            <p>Well therefore may this Time challenge an intereſt, a double intereſt in the Text. This is the day which the Lord hath made, which he hath twice made, twice made me<g ref="char:EOLhyphen"/>morable. Together with the <hi>Regem Con<g ref="char:EOLhyphen"/>ſtitui</hi> of the Text, <hi>Yet have I ſet my King, &amp;c.</hi> Herein meets the <hi>Hodie genui</hi> of the next Verſe, <hi>Thou art my Son, this day have I begotten thee.</hi> There is a ſomewhat ſtrange expreſſion. <hi>Pſal.</hi> CX. 3. <hi>The dew of thy birth, is of the Womb of the Morning;</hi> yet it findeth fit alluſion here. The birth of our King, this day, had a fruitful dew in it, which hath made it teem with Mercies and Bleſſings to himſelf, and in him to us. His Kingdom was calculated in his Nativity, and both his Perſon and Office have one date.</p>
+            <p>To ſet all this the better off, and to ſet forth the honor of God, and his King more
+<pb n="4" facs="tcp:95419:4"/>in it, and by it, we have in the words theſe conſiderables.</p>
+            <p n="1">I. The Perſon exalting, in the Pronouns <hi>I</hi> and <hi>My.</hi> It is <hi>Ego, &amp; Rex meus, I and my King,</hi> whereby as Kings acquire a juſt power, ſo God, a juſt propriety in them, and by a peculiar title and intereſt they be<g ref="char:EOLhyphen"/>come his.</p>
+            <p n="2">II. The Exaltation it ſelf, <hi>Have ſet, i. e.</hi> Have ordained, conſecrated, conſtitu<g ref="char:EOLhyphen"/>ted, not onely appointed and anointed him to the Kingdom, but ſet and ſettled him in it: Which maketh the Exaltation full and compleat.</p>
+            <p n="3">III. The State of Exaltation, and this (like the Author of it) moſt high and ho<g ref="char:EOLhyphen"/>norable, even that of a King: Then which, God could finde nothing greater or better to grace <hi>David</hi> his ſervant, or yet Chriſt his own Son with.</p>
+            <p n="4">IV. The Seat of his Kingdm, and that ſutable and anſwerable to the State of Ex<g ref="char:EOLhyphen"/>altation, <hi>Even Gods holy Hill of</hi> Sion.</p>
+            <p>This, as it relateth to <hi>David,</hi> is to be taken literally, for an Hill of that name, on
+<pb n="5" facs="tcp:95419:4"/>the North-ſide of <hi>Jeruſalem,</hi> which <hi>David</hi> having won out of the hands of the <hi>Jebuſites</hi> (who till his time held a ſtrong Garriſon upon it) made the Seat of his Kingdom, and erected his Royal Palace there.</p>
+            <p>As relating to Chriſt, it is to be taken Figuratively, for the Goſpel Church; and ſo it is ſet in oppoſition to Mount <hi>Sinai,</hi> which typed out the Church under the adminiſtra<g ref="char:EOLhyphen"/>tion of the Law.</p>
+            <p>As it may, and doth relate to all Chriſti<g ref="char:EOLhyphen"/>an Kings, and our King more eſpecially, it is to be taken Morally. And ſo it denoteth (1) Their Soveraignty, being an <hi>Hill.</hi> (2) The Sacredneſs of their Perſon and Office, being an <hi>holy Hill.</hi> (3) Their Supremacy in all Cauſes, and over all Per<g ref="char:EOLhyphen"/>ſons, as well Eccleſiaſtical, as Civil, being Gods own <hi>holy Hill of</hi> Sion.</p>
+            <p n="5">V. Here is the irreſiſtible power of God in all this, who, notwithſtanding all the Conſultations and Combinations of Men to the contrary, ſtill carrieth on his counſel to perfection, and yet ſets <hi>his King upon his holy Hill of</hi> Sion.</p>
+            <pb n="6" facs="tcp:95419:5"/>
+            <p>Of theſe in their order, and that under a threefold aſpect. Firſt, As they relate im<g ref="char:EOLhyphen"/>mediately to <hi>David,</hi> and his advancement to the Kingdom. Secondly, As they are ap<g ref="char:EOLhyphen"/>plicable to other Kings by parity of Reaſon. Thirdly, As in reſpect of peculiar reſem<g ref="char:EOLhyphen"/>blance they concern our King, and were this day accompliſhed in him. For their myſtical reference to Chriſt, I wave, as the work of another day (<hi>viz.</hi> the day of Chriſt his Reſurrection) not this.</p>
+            <p>But before I deſcend to theſe particu<g ref="char:EOLhyphen"/>lars,</p>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="prayer">
+                        <head>Let us Pray.</head>
+                        <p>
+                           <hi>That God will be merciful unto us, and bleſs us, and lift up the Light of his countenance upon us, and be merciful unto us; That he will take away all iniquity, and receive us graciouſly, heal our back-ſlidings, love us freely, and crown the miraculous mer<g ref="char:EOLhyphen"/>cy of this day, with that of a joyful and bliſs<g ref="char:EOLhyphen"/>ful eternity.</hi>
+                        </p>
+                        <p>
+                           <hi>And that his way may be known upon earth, and his ſaving health amongſt all Nations:
+<pb n="7" facs="tcp:95419:5"/>Pray we for Chriſts holy Catholick Church; for theſe Churches of</hi> Great Britain <hi>and</hi> Ire<g ref="char:EOLhyphen"/>land, <hi>that no weapon which is formed againſt the Church may proſper, that every Tongue which ſhall riſe up in judgment againſt her, God would condemn. Pray we herein more eſpe<g ref="char:EOLhyphen"/>cially for our Dread Soveraign Lord</hi> Charles <hi>the Second, by the eſpecial Grace of God, of</hi> England, Scotland, France, <hi>and</hi> Ireland, <hi>King, Defender of the Faith, and in all Cauſes, and over all Perſons, as well Eccle<g ref="char:EOLhyphen"/>ſiaſtical, as Civil, within theſe His Majeſties Realms, and other His Dominions, Supream Governor. That God who hath</hi> ſet his King upon his holy Hill of <hi>Sion, would ſettle Him there, where the ſons of wickedneſs and vio<g ref="char:EOLhyphen"/>lence may repine at, but never reach Him. That he would keep Him ſafe under the ſha<g ref="char:EOLhyphen"/>dow of his wings, from the pride and malice of Men, and from the ſtrife of Tongues. That His glory may be great in Gods Salvation, and that He may reflect that glory back upon God again, by doing Him honor and ſervice; till He ſhall change His corruptible for an in<g ref="char:EOLhyphen"/>corruptible Crown, and His tranſitory King<g ref="char:EOLhyphen"/>doms
+<pb n="8" facs="tcp:95419:6"/>for one that cannot be ſhaken. Pray we for His Royal Conſort our Gracious Queen</hi> Catherine, <hi>for the most illuſtrious Prince</hi> James <hi>Duke of</hi> York, <hi>and the reſt of that Royal Family: And may there never want a Man of that Race, to ſway the Scepter of theſe Kingdoms, ſo long as the Sun and the Moon endureth. Pray we for the Miniſters of Gods holy Word and Sacraments; for the most Reverend the Archbiſhops, the Right Reve<g ref="char:EOLhyphen"/>rend the Biſhops, and other inferior Priests and Deacons: For the Lords of His Maje<g ref="char:EOLhyphen"/>ſties moſt Honorable Privy Council; for the whole Nobility; for the Judges and Magi<g ref="char:EOLhyphen"/>stracy; that All, and every of theſe, in their ſeveral places and callings, may ſerve truly, and painfully to the honor and glory of God; the edifying, and well governing of his people committed to their charge; the ſetling, and ſecuring the intereſt of his Church; and the establiſhing of Peace, with Truth and Righte<g ref="char:EOLhyphen"/>ouſneſs in theſe Kingdoms, remembring the ſevere accompt which they muſt all one day make. Pray we for all Schools of Religion, and good Learning; for the two famous <g ref="char:V">Ʋ</g>ni<g ref="char:EOLhyphen"/>verſities
+<pb n="9" facs="tcp:95419:6"/>of this Land,</hi> Cambridge <hi>and</hi> Ox<g ref="char:EOLhyphen"/>ford: <hi>For all the Commons of theſe Realms, that they may live in the true Faith and Fear of God, in humble and loyal Obedience to His Majeſty, and in Brotherly Love and Charity one towards another. Finally, Bleſs and Praiſe we God for all his Mercies and Bleſſings, Na<g ref="char:EOLhyphen"/>tional and Perſonal, Temporal and Spiri<g ref="char:EOLhyphen"/>tual; for the happy Restoration of our Dread Soveraign to His Kingdoms, and there<g ref="char:EOLhyphen"/>in of the Kingdoms to themſelves, to their Religion, Laws, Liberties, Proprieties again. For all thoſe that have departed this life in Gods holy Faith and Fear, beſeeching God to give us grace, ſo to direct our life after their good example, that we, together with them, may be made partakers of his everlaſting Kingdom. For theſe, and all needful Mercies and Bleſſings, pray, and praiſe we God, in the Name and Words of his dear Son, our alone Saviour, and Interceſſor, ſaying,</hi> Our Father which art in Heaven, &amp;c.</p>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <p>The firſt Proſpect of the Words is, as they relate immediately to <hi>David,</hi> and his
+<pb n="10" facs="tcp:95419:7"/>advancement to the Kingdom; wherein, not one <hi>Iota,</hi> or title of them failed. And</p>
+            <p n="1">(1) For the Perſon exalting <hi>David</hi> to the Kingdom, it was God, and God with his right hand.
+<note place="margin">Pſa. lxxviii 71.</note> He took him from following the Ews great with young, he brought him to feed <hi>Jacob</hi> his people, and <hi>Iſrael</hi> his inheritance.</p>
+            <p>Not the diffuſive, not the collective Body of the people, could pretend an intereſt; to whom God left nothing, but to admit and accept him.
+<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Sam. i. 10.</note> Leſt any Man of <hi>Iſrael</hi> ſhould put in for a ſhare, he brought <hi>Sauls</hi> Crown and Bracelet, the Enſigns of his Majeſty, to him, by the hand of an <hi>Ama<g ref="char:EOLhyphen"/>lekite.</hi>
+            </p>
+            <p>And as he was Gods King, not theirs; ſo of Gods making, not his own. He might once and again have made way for himſelf, by diſpatching <hi>Saul</hi> out of it; and neceſſity and providence (the late great pleas and pretences amongſt us) might ſeem to lead him to it, as it were, by the hand: Yet <hi>David</hi> would neither do it himſelf, nor ſuffer thoſe, whoſe fingers itched to be do<g ref="char:EOLhyphen"/>ing.
+<pb n="11" facs="tcp:95419:7"/>The Kingdom of Heaven may ſuffer violence from him, but this earthly one never ſhall. May <hi>Saul</hi> live long, and enjoy it to himſelf, he will be content with the reverſion. Then</p>
+            <p n="2">(2) For the Exaltation it ſelf, God by theſe ſteps carried him up to the height of of it. Firſt, he ordained and appointed him to it, when there was no intention, no imagination of him otherwiſe,
+<note place="margin">Pſa. lxxxix. 19.</note> till God ſpake of it in viſion to his Prophet. Having thus appointed,
+<note place="margin">Pſa. lxxxix. 20.</note> God anointed him in token of it; anointed him with his own holy Oyl, and that far above his fellows. When he had thus prevented him with the Bleſs<g ref="char:EOLhyphen"/>ings of Goodneſs,
+<note place="margin">Pſal. xxi. 3.</note> he at length put a Crown of pure Gold upon his head: And he that had been hunted as a Partridge upon the Mountains, is in the end ſet and ſettled <hi>up<g ref="char:EOLhyphen"/>on Gods holy Hill of</hi> Sion.</p>
+            <p>Set (I ſay) and ſetled alſo, as faſt as Gods own hand and arm could ſettle him;
+<note place="margin">Pſa. lxxxix. 21.</note> and this not in his perſon onely, but in his poſterity too. God (as if he would exalt exaltation it ſelf) ſpeaketh of his Houſe
+<pb n="12" facs="tcp:95419:8"/>for a great while to come. <hi>His ſeed ſhall endure for ever, and his throne as the Sun before me.</hi> Pſal. lxxxix. 36. Thus alſo</p>
+            <p n="3">(3) For the ſtate of Exaltation, it was that of a King. A King of a rich and popu<g ref="char:EOLhyphen"/>lous Kingdom; in which, above Thirty Kings were accompted at the firſt conqueſt of it;
+<note place="margin">Joſh. xii.</note> and yet this (as if too little) eeked out with other Nations,
+<note place="margin">2 Sam. lviii. 11.</note> whom the Lord made tributary to him. A King with all his Royal Complements. A Throne ſet up over <hi>Iſrael</hi> and <hi>Judah,</hi>
+               <note place="margin">2 Sam. iii. 10.</note> from <hi>Dan</hi> to <hi>Beerſheba.</hi>
+               <note place="margin">Pſal. cxxxii. 18.</note> A Crown, a flouriſhing Crown; yea,
+<note place="margin">2 Sam. xii. 30.</note> Crown upon Crown, that of <hi>Ammon,</hi> which weighed a Talent of Gold, being added to that of <hi>Iſrael.</hi> A Sword for ſup<g ref="char:EOLhyphen"/>preſſing Rebels at home,
+<note place="margin">Pſal. xviii. 39.</note> and ſubduing enemies abroad; even all thoſe that roſe up againſt him.
+<note place="margin">Gen. xlix. 10.</note> A Scepter, which ſhould not depart from <hi>Judah</hi> till <hi>Shiloh</hi> came. In ſhort, whatever might contribute to glory, or ſafety, make him venerable at home, and terrible abroad, met together in him, as one whom God had made his Firſt born,
+<note place="margin">Pſal. lxxxix. 27.</note> high above the Kings of the Earth.
+<pb n="13" facs="tcp:95419:8"/>That nothing might be wanting, now fol<g ref="char:EOLhyphen"/>loweth</p>
+            <p n="4">(4) The Seat of his Kingdom. <hi>Sion</hi> the Mountain of Gods Holineſs, or Gods <hi>holy Hill of</hi> Sion. And here we have two Suns ſhining in one Firmament. The ſame ſphere for God, and the King. In that very place,
+<note place="margin">Pſal. cxxxii. 13, &amp; 17.</note> which God had choſen as an habitation for himſelf, even there he maketh the Horn of <hi>David</hi> to bud. Beds and Thrones (we ſay) admit no rivals; yet in Mount <hi>Sion,</hi>
+               <note place="margin">Pſal. cxxii. 5.</note> where God had pitched his own Throne upon Earth, there are ſet Thrones of Judgment, the Thrones of the Houſe of <hi>David;</hi>
+               <note place="margin">Pſal. cxxxv. 2.</note> and where God keeps his Courts,
+<note place="margin">Pſal. cxxxii. 14.</note> the King keeps his alſo. This is my reſt for ever; here will I dwell (ſaith God) for I have deſired it: Howbeit, he will not dwell alone, but will have his King dwell there too, as if he could not reſt without him. And though God of old had devoted this Hill for himſelf, to ſet his Name there; yet he reſerveth the conqueſt of it for <hi>David,</hi> that he and his King might take poſſeſſion together, and become (as it were) Joynt-tenants to it.
+<pb n="14" facs="tcp:95419:9"/>And now they are in peaceable poſſeſſion of the Seat, we will leave them there, and go on to the laſt conſiderable.</p>
+            <p n="5">(5) The irreſiſtible Power of God in all this, who, notwithſtanding all the re<g ref="char:EOLhyphen"/>ſiſtances that were made, and rubs that were laid in the way, <hi>yet ſetteth his King upon his holy Hill of</hi> Sion.</p>
+            <p>To behold <hi>David</hi> one while cooped up in ſuch a Cave, another while lurking in ſuch a Wood, anon wandering on ſuch a Moun<g ref="char:EOLhyphen"/>tain, or in ſuch a Wilderneſs: To behold him perſecuted, not onely from one place to another, but from one Nation to another People; you would not expect a Crown to be ſet upon his head, but his head, ſooner, or later, to be taken from his ſhoulders. His own expectations ebbed ſo low, that he ſaid in his heart,
+<note place="margin">1 Sam. xxvii. 1.</note> 
+               <hi>I ſhall one day periſh by the hand of</hi> Saul. In the like haſty fit he giveth all men the lie,
+<note place="margin">Pſal. cxvi. 11.</note> 
+               <hi>Samuel</hi> and all, that ever had ſaid word of his advancement to the Kingdom. After <hi>Sauls</hi> death, <hi>David</hi> knowing that he had Sons enough to ſucceed him, Soldiers enough to defend him in it,
+<pb n="15" facs="tcp:95419:9"/>durſt not ſet a foot within the Kingdom,
+<note place="margin">2 Sam. ii. 1.</note> till he had firſt enquired of the Lord: So improbable it was, that ever he ſhould be ſet as head over it.</p>
+            <p>But God who perfecteth ſtrength in weakneſs, and whoſe counſels muſt ſtand, yet ſetteth his King up; and ſetteth him up by thoſe hands, which had been moſt active to pull him down. <hi>Abner,</hi> who had been Captain-General to <hi>Saul</hi> the Father, and <hi>Iſhboſheth</hi> the Son, and was the very Man to make <hi>Iſhboſheth</hi> King in <hi>Sauls</hi> ſtead;
+<note place="margin">2 Sam. ii. 8, 9.</note> is now alſo the Man to bring about all <hi>Iſrael</hi> unto <hi>David,</hi> 2 <hi>Sam.</hi> iii. 12, <hi>&amp;c.</hi>
+            </p>
+            <p>I have led you thorow the words, as they relate immediately to <hi>David,</hi> and his ad<g ref="char:EOLhyphen"/>vancement to the Kingdom, and ſpent ſome time upon this, as being the clew to all the reſt.</p>
+            <p>But as S. <hi>Auſtin</hi> in another caſe ſaid of <hi>Doeg; <g ref="char:V">Ʋ</g>nus homo eſt</hi> Doeg,
+<note place="margin">
+                  <hi>Enar.</hi> in Pſa. LI.</note> 
+               <hi>ſed &amp; genus hominum eſt</hi> Doeg: So may I ſay of <hi>David</hi> in this, <hi>David</hi> in himſelf is one Man, but in figure and repreſentation a great many. Not meerly <hi>Perſona Regis,</hi> the Perſon of a
+<pb n="16" facs="tcp:95419:10"/>King; but <hi>Perſona Regum,</hi> the Pourtraicture of Kings; one that beareth the Perſon of them all, and in this Text more eſpecially. You muſt therefore give me leave <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to transfer it in a figure to all Chriſtian Kings, and they will appear to be ſo many correct copies of it. And</p>
+            <p>Firſt, For the Perſon exalting, the <hi>I</hi> of the Text looks directly upon them all. Soveraignty is a ray of Divinity, and Kings <hi>Humani Joves,</hi> ſo many Earthly Gods; repreſent Gods Perſon, hold his place, have the impreſs of his Power.
+<note place="margin">Pſal. lxxxii. 6.</note> 
+               <hi>Dixi Dii eſtis, I have ſaid ye are gods,</hi> ſaith God himſelf of ſuch Men; and none but God could give them the character. If they are Gods, they cannot be of mans making;
+<note place="margin">
+                  <hi>Tertul.</hi> Apol.</note> No; <hi>inde Poteſtas, unde Spiritus.</hi> Thence cometh their Power, whence their Life and Breath cometh. They are Kings <hi>Dei gratiâ,</hi> by the Grace of God. The <hi>Pagan</hi> Attribute of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or <hi>Jove</hi>-born, God hath adopted into the Family of Religion, and made Canonical; <hi>ye are all the children of the moſt High.</hi>
+               <note place="margin">Pſal. lxxxii. 6.</note> His own ſtile written upon his thigh is, <hi>King of Kings.</hi>
+               <pb n="17" facs="tcp:95419:10"/>Now as S. <hi>Austin</hi> asks the queſtion,
+<note place="margin">
+                  <hi>Aug.</hi> Tom. 4. qu. in Gen. 6<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. &amp; alibi.</note> 
+               <hi>Quid Deus coeli ad femur Abrahae?</hi> What Relati<g ref="char:EOLhyphen"/>on hath the God of Heaven to <hi>Abrahams</hi> thigh? So here, <hi>Quid Reges terrae ad femur Dei?</hi> What Relation have the Kings of the Earth to the thigh of the God of Hea<g ref="char:EOLhyphen"/>ven? But that, <hi>E femore deſcendunt,</hi> they have their deſcent thence, and derive their pedigree from it. The emblem of old was an hand out of a Cloud, ſetting the Crown on. And though ſometime it is the right hand, when God giveth good and gracious Kings: Sometime the left, when he giveth evil and oppreſſive ones; yet both are diſ<g ref="char:EOLhyphen"/>penſed by his hand.</p>
+            <p>Thus is the <hi>I</hi> of the Text upon them all; and all they have, or are his. His to ſet up, his to pull down; and his onely. Then</p>
+            <p>Secondly, For the Exaltation it ſelf. He ſetteth Kings, ſeateth them in their King<g ref="char:EOLhyphen"/>doms, and ſetleth them there. Their tenure is not onely <hi>Per me Reges,</hi> By me Kings are;
+<note place="margin">Prov. viii. 15.</note> but <hi>Per me regnant,</hi> By me they Reign, <hi>i. e.</hi> Enjoy their place, exerciſe their power, are upheld in both. In all this, his hand is
+<pb n="18" facs="tcp:95419:11"/>eſtabliſhed with them,
+<note place="margin">Pſal. lxxx. 17.</note> and his arm alſo ſtrengthens them. His hand of providence is over all, for their good; but they are <hi>viri dexterae,</hi> the men of his right hand. <hi>Great deliverance giveth he unto his King;
+<note place="margin">Pſal. xviii. 50.</note> and ſheweth mercy, i. e.</hi> Special mercy to his Anointed, and to his ſeed for evermore. <hi>Solomons</hi> Throne was built with ſtays (the word is hands) on either ſide:
+<note place="margin">1 Kings x. 19.</note> And if God had not eſtabliſhed the throne, and him in it, with his own hands, his Twelve Lion ſupporters, on the one ſide, and on the other, could not have done it.</p>
+            <p>Was it not for this Divine Manutenency, Kings would never be ſet up, or ſo ſoon as up, they would be thrown down again; and he is careleſs, or wilful, who ſeeth not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſomewhat divine in this. The Hea<g ref="char:EOLhyphen"/>thens did, and ſhall Chriſtians be blinde to it? They wondered to behold whole Na<g ref="char:EOLhyphen"/>tions, and in them ſuch varieties of humors and intereſts, at the beck of one man, per<g ref="char:EOLhyphen"/>haps a woman, perhaps a childe; to have Eſtates, Lives, Liberties, all at his diſpoſal, and yet to hug their chains with a chearful
+<pb n="19" facs="tcp:95419:11"/>freedom. The depraved nature of Man incli<g ref="char:EOLhyphen"/>neth him otherwiſe. <hi>Singuli regnum in pecto<g ref="char:EOLhyphen"/>re gerimus.</hi> Each man carrieth a Kingdom in his boſom, and would admit no Sovereign but himſelf. They had rather be miſerable in place and power, then live in an humble, though happy ſubjection. The vileſt bram<g ref="char:EOLhyphen"/>ble would not willingly ſtoop to the Royal Oak; but is more ready to ſay,
+<note place="margin">Judg. ix. 15.</note> 
+               <hi>Let fire come out of the Bramble, and devour the glory of</hi> Lebanon. Onely God, by a miracle of Power and Providence, uniteth all theſe petty Kings (for ſuch they affect to be) un<g ref="char:EOLhyphen"/>der one; and delivereth him from the ſtri<g ref="char:EOLhyphen"/>vings of his people. That for the Exaltation it ſelf. Then</p>
+            <p>Thirdly, For the State of Exaltation, that of a King. God ſetteth not up a Democra<g ref="char:EOLhyphen"/>cy, wherein the popular equality of the many; nor yet an Ariſtocracy, wherein the factious ambition of a few, beareth all the ſwey: Much leſs, an Anarchy, or law<g ref="char:EOLhyphen"/>leſs confuſion, where <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, No body heareth nothing of no body: but he ſetteth his King; one, and that one in<g ref="char:EOLhyphen"/>veſted
+<pb n="20" facs="tcp:95419:12"/>with the Regal Office and Authority up.</p>
+            <p>This Government God dedicated in himſelf,
+<note place="margin">Pſal. xlvii. 7.</note> and in his own adminiſtration of the World; <hi>For God is the King of all the Earth;</hi> and he conſigned many myriads of Angels to everlaſting flames, for but a thought of competition with him in this his Monarchical Honor.</p>
+            <p>He hath ſettled the Church (as well as the World) in the very ſame way, under Jeſus Chriſt the King of Saints;
+<note place="margin">Revel. xv. 3.</note> and other Kings, the Chriſtian more eſpecially, are his Vice-roys.</p>
+            <p>This he ſet, and ſettled amongſt men, in, and from the beginning. What was <hi>Adam</hi> (in the deſigns of his Creation) but an U<g ref="char:EOLhyphen"/>niverſal Monarch? Polarchy came in with ſin, and the curſe. And yet it got not foot<g ref="char:EOLhyphen"/>ing immediately neither.
+<note place="margin">
+                  <hi>Cic.</hi> lib. 3. de Logibu.</note> 
+               <hi>Cicero</hi> reckoneth it <hi>Inter certiora, &amp; notiora,</hi> amongſt the moſt certain, and known truths, that <hi>Omnes antiquae gentes regibus quondam paruerunt.</hi> All the Nations of old were ſubject to Kings,
+<pb n="21" facs="tcp:95419:12"/>and the reſt were but encroachments; and ſuch as moſt Nations caſt in again, finding one Tyrant (take Kings at the worſt) better then a great many.</p>
+            <p>
+               <hi>Moſes,</hi> the firſt that God ſet over his own people, was King in <hi>Jeſurun.</hi>
+               <note place="margin">Deut. xxxiii. 5</note> And when they had a long time experienced the miſe<g ref="char:EOLhyphen"/>ries and miſchiefs of having no King in <hi>Iſrael,</hi> God, for the remedy and redreſs of them, ſetteth his King up, and ſetleth a ſucceſſive Royalty amongſt them: And having ſet<g ref="char:EOLhyphen"/>tled this (which was of prime intendment) changeth no more; but reckoneth it as the higheſt pitch of honor and happineſs which they could attain, that they had proſpered into a Kingdom. <hi>Ezek.</hi> xvi. 13.</p>
+            <p>I do not abſolutely condemn other Forms of Government; but I prefer the firſt Model: That is the Head of Gold; theſe the dwindlings of it into Feet, part Iron, part Clay. Theſe repreſent God as ſo many ſmall <hi>Eidylia,</hi> taken but to the ſhoul<g ref="char:EOLhyphen"/>ders onely; that in full proportion. One of the greateſt Beauties and Glories of the Creation is,
+<note place="margin">Prov. xxx. 31.</note> 
+               <hi>A King againſt whom there is no
+<pb n="22" facs="tcp:95419:13"/>riſing up.
+<note place="margin">Prov. xxviii. 2.</note> For the tranſgreſsion of a Land, many are the Princes thereof;</hi> not for the honor and ſafety of it.
+<note place="margin">Prov. xxx. 27.</note> 
+               <hi>The Locuſts have no King</hi> (ſaith <hi>Solomon</hi>) <hi>but the Bees have.</hi> The very Trees in <hi>Jothams</hi> parable,
+<note place="margin">Judg. 9.</note> will an<g ref="char:EOLhyphen"/>oint them a King, and chuſe the Bramble, rather then have none. Briefly, of whoſe ſetting up ſoever other Governors and Go<g ref="char:EOLhyphen"/>vernments are, God ſetteth his Kings up; and thoſe that of late have whet their Tongues and Pens againſt them, have through their ſides ſtruck at God himſelf, and impeached the Wiſdom of his Inſtitution. Such is the State of Exaltation. And now</p>
+            <p>Fourthly, The Seat fitteth all Chriſtian Kings as well: God, upon a Moral account, ſetteth each of them <hi>upon his holy Hill of</hi> Sion.</p>
+            <p n="1">(1) They are ſet upon an Hill, not up<g ref="char:EOLhyphen"/>on the common level, which ſpeaketh their Sovereignty.
+<note place="margin">Rom. xiii. 1.</note> In S. <hi>Pauls</hi> Dialect, they are the higher powers;
+<note place="margin">1 Pet. ii. 13.</note> in S. <hi>Peters,</hi> the higheſt, King as Supream. There was ſomewhat of ſignification in it, that <hi>Saul</hi> was higher by the head, then any of the people: And in
+<pb n="23" facs="tcp:95419:13"/>his politick capacity he was higher then them all together. The people themſelves ſay, <hi>Erit ſuper nos,</hi> A King ſhall be over us, 1 <hi>Sam.</hi> viii. 19. And God ſetteth him accordingly, <hi>Super populum ſuum,</hi> over his people <hi>Iſrael.</hi> 1 <hi>Sam.</hi> ix. 16.</p>
+            <p>This is the place which all good Chriſti<g ref="char:EOLhyphen"/>ans have evermore ſet Kings in, not <hi>ſubter,</hi> but <hi>ſuper,</hi> not under, or on eaven ground with them, (as in the Modern Heraldry of ſome amongſt us) but over and above them. The firſt and beſt Chriſtians recognized them as ſuch: <hi>Tanquam a Deo ſecundos,
+<note place="margin">
+                     <hi>Tertul.</hi> ad Sca<g ref="char:EOLhyphen"/>pulam.</note> &amp; ſolo Deo minores,</hi> as Second to God, and onely leſs then God himſelf,
+<note place="margin">
+                  <hi>Optat.</hi> lib. 3.</note> and owned none above the Emperor; but God alone that made, and made him Emperor. <hi>
+                  <g ref="char:V">Ʋ</g>ni<g ref="char:EOLhyphen"/>verſis Minor,</hi> was not heard of in thoſe days, that the King, though greater then every ſingle perſon, ſhould be leſs then the col<g ref="char:EOLhyphen"/>lective body of the people: But,
+<note place="margin">
+                  <hi>Tertul.</hi> Ubi ſu<g ref="char:EOLhyphen"/>pra.</note> 
+               <hi>Omnibus Major, dum ſolo Deo Minor,</hi> was the accompt then, that he is greater then all, whileſt onely leſſer then God.</p>
+            <pb n="24" facs="tcp:95419:14"/>
+            <p>Hereupon he is liable to no Tribunal, but Gods; becauſe none elſe is above him. The <hi>Hill,</hi> God ſetteth his Kings upon, is above <hi>Mars</hi> his Hill. <hi>Serviunt utilitari, non poteſtati.</hi> They are ſervants (in a ſort) for the good and benefit of their people, not ſubject to their power. The order which God hath ſet and ſettled in the World (and the proceſs would be infinite otherwiſe) is this, That if private men offend, there is the Magiſtrate to puniſh them; if Magi<g ref="char:EOLhyphen"/>ſtrates, the Sovereign Prince; if the Sove<g ref="char:EOLhyphen"/>reign Prince, there is a Tribunal in Heaven, on Earth he is not accomptable to any, who may ſay unto him, <hi>What doeſt thou? Eccleſ.</hi> viii. 4. A piece of Divinity ſo generally received and approved amongſt the <hi>Jews,</hi> that it paſſed into a Proverb, <hi>Nulla creatura judicat Regem, ſed Benedictus.</hi> No Crea<g ref="char:EOLhyphen"/>ture judgeth, or can judge the King, but he that is over all, <hi>God bleſſed for ever.</hi> And that is the firſt ſtep; the <hi>Hill</hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their Sovereignty. But that is <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.</p>
+            <p n="2">(2) Kings are <hi>ſet up <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> which ſpeaks the Sacred <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </hi> and
+<pb n="25" facs="tcp:95419:14"/>Office. This <hi>Hill</hi> is, or at leaſt ought to be, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, free from all violences, or inſolen<g ref="char:EOLhyphen"/>cies whatſoever. It is bounded with, not onely <hi>Ne perdas,</hi> Deſtroy them not; but <hi>Ne tangas,</hi> Touch them not. You may no more touch one of them, then you might have touched Gods Ark, or may touch the Apple of his Eye. <hi>David</hi> ſtretched but forth his hand, and that no further then the skirt of <hi>Sauls</hi> Garment,
+<note place="margin">1 Sam. xxiv. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> yet it went to his own heart. This holy ground they ſtand upon, renders <hi>veſtigia ſacra</hi> (ſo was the ſtile of the ancient Councils, and Fathers) their very footſteps, ſacred and inviolable; and it is one of <hi>Davids</hi> impeachments of his ene<g ref="char:EOLhyphen"/>mies, That they ſlandered the footſteps <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o Gods Anointed. <hi>Pſal.</hi> lxxxix. 51.</p>
+            <p>Nor is this inviolableneſs annexed to their ſanctity, but to their Sovereignty; not to their Chriſtianity, but to their Crown. <hi>Saul</hi> was ſet upon this <hi>holy Hill,</hi> as well as <hi>David;</hi> and the Heathen <hi>Cyrus,</hi> as well as either of them. Hereby the Perſon of Kings be<g ref="char:EOLhyphen"/>cometh ſacred, <hi>Ratione Imperii, ſi non Re<g ref="char:EOLhyphen"/>ligionis,</hi> by vertue of their Empire, though
+<pb n="26" facs="tcp:95419:15"/>not of their Religion; in reſpect of the dignity of their Place and Office, though not the integrity of their Faith and Life. Thus <hi>Saul</hi> (as S. <hi>Auſtin</hi> ſaith) <hi>Non habebat innocentiam &amp; tamen habebat ſanctitatem;</hi>
+               <note place="margin">
+                  <hi>Aug.</hi> Cant. Lit. Petil. lib. 2. c. 48.</note> had not innocence, yet he had holineſs; not of life, but of unction. This made <hi>Da<g ref="char:EOLhyphen"/>vid</hi> revere him when alive, and revenge him when dead.
+<note place="margin">
+                  <hi>Optat.</hi> lib. 2.</note> 
+               <hi>Timuit oleum, &amp; ſervavit inimicum.</hi> He feared the anointing of God upon him, and therefore ſpared his blood<g ref="char:EOLhyphen"/>thirſty enemy. And ſpared all ſuch, muſt be upon this very accompt. To <hi>Solomons Cor Regis, The Kings heart is in the hand of the Lord,</hi> I may add, <hi>Caput Regis, The Kings head</hi> (I mean his Life, his Crown, and all the Royalties annexed to it) <hi>is in the hand of the Lord too;</hi> and none elſe can lay an hand upon him, and be guiltleſs. And that is the ſecond ſtep. The <hi>holy Hill</hi> ſpeaketh the Sacredneſs of their Perſon and Office once more.</p>
+            <p n="3">(3) <hi>God ſetteth his Kings upon his holy Hill of</hi> Sion, the place of his publick ſer<g ref="char:EOLhyphen"/>vice and worſhip,
+<note place="margin">Pſal. cxx. 4.</note> whither the Tribes went
+<pb n="27" facs="tcp:95419:15"/>up, the Tribes of the Lord, to the Teſti<g ref="char:EOLhyphen"/>mony of <hi>Iſrael,</hi> which ſpeaks their Supre<g ref="char:EOLhyphen"/>macy in all Cauſes, and over all Perſons, as well Eccleſiaſtical, as Civil. As nothing ſo high, but the Hill ſets them above it: So nothing ſo holy, but this <hi>Hill of Sion</hi> ſets them over it. Nor would God ever have ſet his King upon <hi>Sion,</hi> if he muſt have had nothing to do in ſacred matters.</p>
+            <p>
+               <hi>David</hi> well knowing for what end God had ſet him there, ſtreight way fetcheth the Ark, and ſetteth it by him; and withal ſet<g ref="char:EOLhyphen"/>teth order for the whole ſervice of the Ta<g ref="char:EOLhyphen"/>bernacle, and appoints the Prieſts, and Le<g ref="char:EOLhyphen"/>vites, and all the reſt that attended upon Sa<g ref="char:EOLhyphen"/>cred Miniſtrations, their ſeveral dignities, courſes, and offices. And all the pious Kings, whom God ſet there after him, followed his pattern.</p>
+            <p>The <hi>Jews</hi> had a ſaying, and there was ſenſe and ſignification in it, <hi>That the Keys of the Temple were laid every night under</hi> Solomons <hi>Pillow:</hi> A prime part of the Kings office and charge being <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the care of Religion, and matters
+<pb n="28" facs="tcp:95419:16"/>Divine; to ſee that God, and his ſervice ſuffer no detriment. Then they ſerve God as Kings, when they do that ſervice, which no other can do, for him, to eſtabliſh Reli<g ref="char:EOLhyphen"/>gion as a Law; and none oppoſe the Laws provided in that behalf, but who are ene<g ref="char:EOLhyphen"/>mies to the Religion too.</p>
+            <p>To ſpeak them Keepers of both Tables, the Commandment concerning them is ſet <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, in the confines of both; as that wherein they concenter, and that Kings, thus conveniently ſituated, may look to Religion with the one eye, as well as to Civil Juſtice with the other: Up to the Temple on the top of Mount <hi>Sion,</hi> as well as to <hi>Jeruſalem,</hi> at the bottom of it.</p>
+            <p>
+               <hi>Optatus</hi> accounts it a piece of <hi>Donatus</hi> his wonted fury (and it was no better,
+<note place="margin">
+                  <hi>Optat.</hi> lib. 3.</note> no other) to cry out, <hi>Quid Imperatori cum Ec<g ref="char:EOLhyphen"/>cleſiâ?</hi> What hath the King to do with the Church? For he hath much to do, in order<g ref="char:EOLhyphen"/>ing, though not in adminiſtring, in diſpo<g ref="char:EOLhyphen"/>ſing, though not diſpenſing the affairs of it. To do what <hi>Hezekiah</hi> did (namely, to cauſe the Prieſts and Levites to ſanctifie Gods
+<pb n="29" facs="tcp:95419:16"/>Houſe, and to fulfil their Office) not what <hi>
+                  <g ref="char:V">Ʋ</g>zziah</hi> did, to invade and uſurp it. To ſee God have his Incenſe, not to burn it himſelf. And that is the third and laſt ſtep (which ſetteth Kings at their juſt elevation) Gods <hi>holy Hill of</hi> Sion ſpeaketh their Supre<g ref="char:EOLhyphen"/>macy in all Cauſes, and over all Perſons, as well Eccleſiaſtical, as Civil.</p>
+            <p>There is one, and but one thing, now behinde, <hi>viz.</hi> Fifthly, The irreſiſtible power of God in all this, who whatever ſtands in his, or their way; <hi>Yet ſetteth his Kings up<g ref="char:EOLhyphen"/>on his holy Hill of</hi> Sion.</p>
+            <p>Neither their place and power as Kings, nor their vertue and merit as good Kings, can ſecure them from the ſtrivings of the people. Some unquiet ſpirits are ſtill ready to cry out, <hi>Nolumus hunc, We will not have this man to reign over us;</hi> and the moſt juſt and moderate Prince is (in account) a Ty<g ref="char:EOLhyphen"/>rant to one part or other. <hi>Moſes</hi> hath his <hi>Korah</hi> and <hi>Miriam; David</hi> his <hi>Abſolom</hi> and <hi>Sheba; Solomon</hi> his <hi>Adonijah:</hi> The meek<g ref="char:EOLhyphen"/>eſt, the religiouſeſt, the wiſeſt of Kings, ſome or other conſulting to caſt him dwon
+<pb n="30" facs="tcp:95419:17"/>from his Excellency; or (as another Tranſ<g ref="char:EOLhyphen"/>lation hath it) to put him by, whom God would exalt. <hi>Pſal.</hi> lxii. 4.</p>
+            <p>The Hill whereon Gods ſets his Kings, is oft-times ſo ſteep and craggy, that they are forced (like <hi>Jonathan</hi> and his Armor-bear<g ref="char:EOLhyphen"/>er) to climb up their hands and their feet;
+<note place="margin">1 Sam xiv. 13.</note> and when they are up, there are <hi>Venti Ty<g ref="char:EOLhyphen"/>phonici,</hi> thoſe violent and turbulent ſpirits, which will not ſuffer them to reſt. High as this Hill is, it is not above ſuch Winds and Storms. Onely the Kingdom of Heaven is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſuch as cannot be ſhaken: Not one upon Earth, but hath been ſhaken all to pieces; and yet for all this, God ſetteth up his Kings. Mountains of Oppoſition ſhall be levelled, and laid flat before this Hill. <hi>What art thou, O great Mountain? before</hi> Zerubbabel <hi>thou ſhalt become a Plain.</hi> Zech. iv. 7.</p>
+            <p>If at any time they are caſt down, God moſt-what ſets them up again, if not in their Perſon, yet in their Poſterity; and if one line fail, eeketh it with another. Their glory is great in Gods Salvation,
+<note place="margin">Pſal. xxi. 5, 7.</note> and through
+<pb n="31" facs="tcp:95419:17"/>the Mercy of the moſt High they do not miſcarry. As oppoſition riſeth againſt them, he enableth them to riſe againſt oppoſition, yea, to riſe by it, till they riſe above it: And firſt or laſt ſetteth up his Kings upon <hi>his holy Hill of</hi> Sion.</p>
+            <p>Thus I have alſo run through the words, as by parity of Reaſon they are applicable to other Kings, and like a well-ſet picture, they look indifferently upon all of them.</p>
+            <p>But though all Kings are intereſſed, yet ſome have a double portion in them, and our Royal Sovereign above the reſt in his this days happy <hi>Reſtoration</hi> to his Kingdoms. A Tranſaction which was the very Tran<g ref="char:EOLhyphen"/>ſcript of the Text; and the Text may ſeem a Prophecy of it, rather then an Hiſtory. Herein therefore we may, and muſt read it over again, elſe we ſhould be injurious to both; and it is as legible in the face of this day, as if written with a Sun-beam upon a Wall of Chryſtal. And</p>
+            <p>Firſt, For the Perſon exalting. It was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, God, and God (as it were) out of an Engine.
+<note place="margin">Pſal. lxxxix. 20.</note> He that found <hi>David</hi>
+               <pb n="32" facs="tcp:95419:18"/>his ſervant, found our Dread Sovereign al<g ref="char:EOLhyphen"/>ſo; and found him when all hopes were loſt. Onely he whoſe help beginneth, where humane help endeth, turneth back his cap<g ref="char:EOLhyphen"/>tivity as the Rivers in the South; and our Occidental Sun, when darkneſs was upon the face of our whole Earth, becometh o<g ref="char:EOLhyphen"/>riental again. This is the Lord who hath ſhewed us light. <hi>Haec mutatio dexterae ex<g ref="char:EOLhyphen"/>celſi. The right hand of the moſt High hath done this.</hi>
+            </p>
+            <p>For us in all this, we were <hi>Sicut ſomnian<g ref="char:EOLhyphen"/>tes,</hi> like them that dream, if we did ſo much as dream of it. And it is well, if Po<g ref="char:EOLhyphen"/>ſterity (rather admiring, then believing a work of ſuch power and wonder) think us not to have been in a dream all the while.</p>
+            <p>For thoſe enterprizes and attempts which were at any time deſigned to this end, they vaniſhed into air, and nothing. Either the worſt counſels were followed, or the beſt ſucceeded not, God reſerving the honor of all to himſelf. And by all means let him have it, and the King entirely for his own, together with it. So his, as (I will be bold
+<pb n="33" facs="tcp:95419:18"/>to ſay) no other King in Chriſtendom is, none by ſo immediate right, nor by ſo mani<g ref="char:EOLhyphen"/>fold Names and Titles. His in his marvelous preſervation, his in his gracious ſuſtentati<g ref="char:EOLhyphen"/>on, his in his powerful reſtoration, and his ſtill in his merciful protection from the pride and malice of men, and from the ſtrife of Tongues. Thus fit the words are, <hi>for the Perſon exalting.</hi> And they are no leſs ſo</p>
+            <p>Secondly, For the Exaltation it ſelf. God hath ſet him, ſet him upon the throne of his Fathers; or rather made him, to ſurmount them all. Some of their Thrones might ſeem but a Footſtool to his. Set him above the heads of his enemies, and raiſed him up<g ref="char:EOLhyphen"/>on their ruines. The lower he was caſt down before, the higher hath God ſet him up at the rebound: And like a broken Bone that is well ſet, he is become ſtronger for break<g ref="char:EOLhyphen"/>ing. He that was ſo broken, as if never to be ſet again, is ſo ſet, as I hope never to be broken again. Set where the ſons of wicked<g ref="char:EOLhyphen"/>neſs and violence may, and no doubt do, fretfully repine at him, but cannot reach
+<pb n="34" facs="tcp:95419:19"/>him. Set as far above their envy, as our hope. Whom they ſet at naught, and would allow him no place in any part of the Build<g ref="char:EOLhyphen"/>ing, God hath ſet in the higheſt part, of the cheifeſt place, upon the very head of the corner.</p>
+            <p>And this paſſeth me from the Exaltation it ſelf, to</p>
+            <p>Thirdly, The ſtate of Exaltation. God hath ſet him as King. After the head of Gold was broken off, much to do there was to ſet up another in place of it. Firſt, Two Houſes were ſet up, which devoured all the reſt, and one the other. Then Keepers of Liberties, after we had loſt them. A Grand Viſier with his Janizaries, next ſet<g ref="char:EOLhyphen"/>teth up himſelf, not to ſhelter, but to over<g ref="char:EOLhyphen"/>drop us, and protect us to our ruine. To rule Loyal obſtinacy with an Iron rod, and to meaſure Juſtice by Power. After all this, the fragments of a ſhattered Senate are ſet up again, but theſe (like the Ruines of an old Houſe) ſtand not long. Out of their rubbiſh riſeth up a Committee of Safety, but which cannot contrive their own.</p>
+            <pb n="35" facs="tcp:95419:19"/>
+            <p>Thus one Chimerical Form of Govern<g ref="char:EOLhyphen"/>ment was ſet up after another <hi>(Anarchies, Polarchies, Oligarchies, Tyrannies)</hi> and none would ſtand. At length God taketh the matter upon himſelf, and ſetteth his King up; and in him tieth a knot upon our changes, and ſetleth the floating Iſland up<g ref="char:EOLhyphen"/>on its Baſis again. <hi>The Lord our God is with us, and the ſhout of a King is amongſt us.</hi>
+            </p>
+            <p>A King, I ſay, with all his Royal Com<g ref="char:EOLhyphen"/>plements. Whileſt other Kings have their Crowns croſſed, he hath his Croſs crowned; and the fire of affliction did but embelliſh, and burniſh it for him. Never any of his Royal Progenitors wore a more rich and radiant.</p>
+            <p>It was much to have been feared, that if ever he was ſet up at all, it would be but in the Form of a Sovereign. A King not bear<g ref="char:EOLhyphen"/>ing the Sword, or bearing it in vain. Such a King, as the <hi>Jews</hi> in their cruel ſport made Chriſt, when they gave him a Reed for a Scepter. Indeed a King, and no King. Some ſuch gay-nothing, the ſhadow of a great name, many, that pretended much zeal for
+<pb n="36" facs="tcp:95419:20"/>the King, no doubt had deſigned. But the happineſs and comfort was, that God would have him his King, not theirs: And ſo a King to purpoſe. A King inveſted with Regal both Honor, and Power. A King as a King ſhould be, even a King that is Supream. And that fully anſwereth the ſtate of Exaltation. Then</p>
+            <p>Fourthly, For the Seat. God hath ſet him upon an Hill, made his Sovereignty to be recognized. Here is no co-ordinate, co<g ref="char:EOLhyphen"/>equal, corrival power of Parliaments, or Presbyteries with him: No Sovereign Au<g ref="char:EOLhyphen"/>thority of the People above him. None to watch, much leſs to Mate him, as of late we have ſeen. No reducing him into Order by force and Arms; no diſtinguiſhing him out of himſelf, nor ſetting up his Politick againſt his Perſonal capacity. <hi>Singulis Major, <g ref="char:V">Ʋ</g>ni<g ref="char:EOLhyphen"/>verſis Minor,</hi> Greater then each, leſs then all; with the like unhallowed Divinity, belcheth not from the Pulpit and Preſs, as it was wont. Now <hi>Royal Majeſty</hi> looks like it ſelf, and theſe umbrages vaniſh before it. This Mountain of the Lord is eſtabliſhed in
+<pb n="37" facs="tcp:95419:20"/>the top of the Mountains, and the little Hills do their obeyſance. You are taught to ſubmit to <hi>the King, as ſupreame;</hi> to pay the loweſt homage to Him, as to the Higheſt Power upon Earth.</p>
+            <p>But then again, he is ſet upon an <hi>Holy Hill.</hi> The Sacredneſs of His Perſon and Office is recognized: and, both ſecured, as farr as the Religion of Oaths, the Severity of Laws, and the ſincerity of our own Declarations can do it. No Blaſpheming of our Earthly God is allowed; no Warr levyed by His Power, againſt His Perſon; no Tribunal erected without Him, againſt Him, above Him; but, we are made to pro<g ref="char:EOLhyphen"/>feſs an hearty abhorrence of all ſuch Trai<g ref="char:EOLhyphen"/>terous Poſitions and Practiſes.</p>
+            <p>I doubt not, but, in <hi>Tertullians</hi> phraſe,
+<note place="margin">
+                  <hi>Tert. Apo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. ca.</hi> 35.</note> 
+               <hi>Post parricidarum vindemiam racematio ſu<g ref="char:EOLhyphen"/>perſtes.</hi> After a vintage, a bloody vintage, of ſuch Parricides, large gleanings are left; Men of the like ſanguinary mindes, who, by the Fathers Blood, would trace the Son, our now Dread Soveraign, to death. But, if the Holineſs of the Hill whereon God hath
+<pb n="38" facs="tcp:95419:21"/>ſet his King, and the bounds which Autho<g ref="char:EOLhyphen"/>rity hath ſet to that again, cannot reſtrain them, yet the horrour of it may. If one of theſe Beaſts but touch the Mountain he ſhall die.</p>
+            <p>Once more he is ſet upon Gods <hi>Holy Hill of</hi> Sion. His Supremacy in all Cau<g ref="char:EOLhyphen"/>ſes, and over all Perſons is recognized: and (like a truly Nurſing Father) he improveth it for the benefit of the Church. God, who preſerved him conſtant in his Religi<g ref="char:EOLhyphen"/>on, againſt Scandals at home, and Temp<g ref="char:EOLhyphen"/>tations abroad, has made him as reſolute to preſerve it. His very firſt care was to bring back the Ark, and ſet it upon Sion by him, and by wholſom Laws to ſettle it there: and what was his firſt, I doubt not will be his laſt care, to ſee the Church Free and Flouriſhing again, and to behold Sion <hi>yet once more a Praiſe in the Earth.</hi> Like that Religious Emperour of old, he hath ſet his Crown upon the <hi>Bible,</hi> and engaged his Power for the defence of it. Fixed upon his Sion, he would neither change it for Ba<g ref="char:EOLhyphen"/>bels ſeven Hills, and the Gariſh Lady that
+<pb n="39" facs="tcp:95419:21"/>ſitteth upon them (though time was when they louted low to him, and with the moſt ſlie inſinuations ſollicited a Change) nor would he ſince deſcend from it to her that fitteth Undreſſed in the valleys: but, where God hath ſet him, he holds his Seat ſtill, and thence diſpenſeth His Dews and Influences to the Church.</p>
+            <p>Thus the Seat alſo fitteth him, as exactly as if made for him; only we might well wonder to ſee him there, was it not for</p>
+            <p n="5">(5) The Irreſiſtible Power of God in all this, which carry'd on our Dread Sove<g ref="char:EOLhyphen"/>reign through thoſe inſuperable difficulties, and ſad diſcouragements which lay in his way, and <hi>yet ſet his King upon his Holy Hill of Sion.</hi>
+            </p>
+            <p>A matter, which paſſeth all conceipt and belief. That a Perſecuted Prince (and here let me have your pardon, if I preſent Royal Majeſty in its Eclipſe again) after twelve years Baniſhment, when his Name and Memory (with long Tract of Time) was almoſt worn out, only ſome Loyal Spi<g ref="char:EOLhyphen"/>rits wore Him Graven on their hearts;
+<pb n="40" facs="tcp:95419:22"/>when His proud Rebellious Enemies had fortify'd themſelves with the Wealth and Strength of three Kingdoms, and had now begun to Sing ſoft Requiems, as if <hi>the bit<g ref="char:EOLhyphen"/>terneſs of death</hi> had been <hi>paſt;</hi> when that Old Uſurper with ſuch miſchievous Policy, backed with Tyrannical Power, had endea<g ref="char:EOLhyphen"/>voured to confirm the Kingdom to his po<g ref="char:EOLhyphen"/>ſterity, and ſuch an Army of Criminal va<g ref="char:EOLhyphen"/>lours was engaged in their defence; when all the People, by a Curſed <hi>Engagement,</hi> had been made to cry out,
+<note place="margin">2 Sam. xx. 2.</note> 
+               <hi>We have no part in</hi> David, <hi>neither have we inheritance in the ſon of</hi> Jeſs; when many Attempts, ſome hopeful and probable enough, had miſcar<g ref="char:EOLhyphen"/>ried already, and the whole Nation in one great Gaſp not long before ſeemed to have given up the Ghoſt; when there were Men, Moneys, and all Means on the one hand, and the want of all on the other: that a Baniſh'd Prince, I ſay, under theſe Circumſtances, ſhould be brought back to His Kingdoms again, and with ſuch Peace, Honour, and Safety ſet, and ſetled there, this might well puzzle the Faith of a Solifi<g ref="char:EOLhyphen"/>dian.
+<pb n="41" facs="tcp:95419:22"/>It was beyond expectation, beyond imagination, ſtrange to a miracle.</p>
+            <p>Strange for the matter, that ever ſuch a thing ſhould be brought about at all. He that had ſeen our Dread Sovereign look through the Royal Oak; that had ſeen him again in his ſtrange diſguiſe, when (like his Saviour) he put on the form of a ſervant; that had ſeen the eager purſuits after him; that had ſeen Sea and Land laid for him; that had heard the price which was ſet upon his head, and therewithal the Privy Contracts, which that lump of Clay mingled with Blood made with his Aſſaſſinates; that had thenceforth followed him through his Royal Pilgrimage, and ſeen the neceſ<g ref="char:EOLhyphen"/>ſities and dangers which he conflicted with there: His panting Zeal would have ſuſ<g ref="char:EOLhyphen"/>ſpected ſome other event, then to have ſeen him ſet up as King. Yet thus God hath ſet him, and our eyes have ſeen it, and our hearts rejoyce in it this day, crying to the praiſe of the glory of his Grace, <hi>The right hand of the Lord hath done marvellouſly, the right hand of the Lord bringeth mighty things to paſs.</hi>
+            </p>
+            <pb n="42" facs="tcp:95419:23"/>
+            <p>Strange again for the manner, that it ſhould be brought about in ſuch a way. It might have been expected, that if ever he came to his Kingdoms at all, he muſt ſwim to them in Blood, and be ſet upon Mount <hi>Sinai,</hi> rather then Mount <hi>Sion.</hi> That we muſt have bought ſo rich a Mercy, with the Miſeries of a new War; and it had been a good purchaſe after all. Yet lo, God taketh his King, and with the turning of an hand, ſets him where he would have him, and none to ſay unto him, what doeſt thou? In all this, there was no breaking out, no breaking in, no complaining in our ſtreets. No ſpoils of War, no Trophies of Victory, to adorn, or rather to ſully his Triumphs. The Hill whereon God ſet his King, was a Mount of <hi>Olives;</hi> nothing but Peace, and all poſſible expreſſions of joy upon it.</p>
+            <p>Strange once more for the Means, and this above all, that it ſhould be brought about by thoſe men, and their means, who had engaged Bodies and Souls to oppoſe it. One part of them he maketh to caſt young
+<pb n="43" facs="tcp:95419:23"/>
+               <hi>Iſhboſheth</hi> down; another part to ſet his King up, and carrieth him into his Throne upon their ſhoulders. That renowned Per<g ref="char:EOLhyphen"/>ſon, never to be mentioned without glory to God, and honor to himſelf, who through the conducts of a ſecret, but wiſe Provi<g ref="char:EOLhyphen"/>dence, had long ſerved as <hi>Captain General</hi> to <hi>Saul</hi> the Father, and <hi>Iſhboſheth</hi> the Son, is <hi>Abner</hi>-like (though upon a better prin<g ref="char:EOLhyphen"/>ciple, that of his former loyalty, which he ſtill kept alive in him) the very man to make our <hi>David</hi> King over his Engliſh <hi>Iſrael.</hi>
+            </p>
+            <p>Thus ſtrange for the Matter, ſtrange for the Manner, ſtrange (above all) for the Means this tranſaction was: Yet for all this, <hi>God hath ſet his King upon his holy Hill of Sion.</hi>
+            </p>
+            <p>And now what remaineth, but that the Kings loyal Friends rejoyce in the mercy of this day, and his diſloyal Enemies, tremble to oppoſe it? Somewhat muſt be ſaid to either of them, and I have done.</p>
+            <p>Firſt, To the Kings loyal Friends. Do you with joy and praiſe to God, admire
+<pb n="44" facs="tcp:95419:24"/>and adore that unconceivable Power and Providence, which hath ſet his, and your King <hi>upon his holy Hill of Sion.</hi> Let not ſuch a miracle of Mercy be loſt upon you. Think what you would have done; what you would have ſuffered, to have ſeen ſuch a day as this. How unlikely it was that ever you ſhould have ſeen it. How many ſad days you had ſeen before. Seen the Father barbarouſly murthered; the Son defeated, in danger to be deſtroyed; your lawful Sovereign wandering (as an exile) in Foreign Countreys, and Bloody Tyrants domineering in his own. Seen the Church become a <hi>Babel</hi> of Confuſion; the Land an Accldama, or Field of Blood; the Luſts of lawleſs men ſet up for Laws; your Lives, Liberties, Proprieties, meerly preca<g ref="char:EOLhyphen"/>rious, and at the pleaſure of Uſurpers; one puff of loyal breath, as much as they were all worth: And in all this, no hopes, or means of better to be ſeen. Your preſent evils ſeemed impoſſible to expire, but by dying into greater: And there was nothing now left, but Prayers, and Tears, and ſad expectations of worſe.</p>
+            <pb n="45" facs="tcp:95419:24"/>
+            <p>This was your Caſe and State, when the ſons of <hi>Belial</hi> had caſt Gods King down. Now therefore, that God hath ſet him up again, and <hi>ſet him upon his holy Hill of</hi> Sion, and by this means we ſee both Crown and Miter ſhining with their wonted beauty and glory; ſee Religion ſetled, Liberty ſecured, Propriety reſtored, and the Laws by which we hold them all maintained; <hi>O come let us ſing unto the Lord, let us heartily rejoyce in the ſtrength of our ſalvation.</hi>
+            </p>
+            <p>Rejoyce after an hearty, but withal an holy manner: For ſuch the holy Hill, whereupon God hath ſet his King, calleth for at your hands. See that you celebrate not,
+<note place="margin">
+                  <hi>Tert.</hi> Apol. cap. 35.</note> 
+               <hi>Publicum gaudium per publicum dede<g ref="char:EOLhyphen"/>cus,</hi> publick joy by publick diſgrace. Let not diſloyal ſpight ſay to your reproach, <hi>Majeſtas violatur, Divinitas conſtupratur lau<g ref="char:EOLhyphen"/>dantibus vobis,</hi> That whileſt you pretend to honor God, and the King, you diſhonor both. When you ſhould contend in loyal ſervice and duty to God and the King, play not prizes in wickedneſs, and ſeek who ſhall outvie, and vaunt of moſt ſupererogatory
+<pb n="46" facs="tcp:95419:25"/>merits for Hell, as if you were delivered to do all theſe abominations. Let not this ce<g ref="char:EOLhyphen"/>leſtial Mannah breed Worms, nor becauſe God hath been more gracious, be you leſs. Affect not ſuch a perverſe emulation of your Maker, as to bring Darkneſs out of Light, and to curſe your Bleſſings. To make your Returns, as unparallel'd as Gods Mer<g ref="char:EOLhyphen"/>cies; and this your onely uſe of them to pervert their nature, and defeat their deſign. Let not this <hi>holy Hill</hi> bring forth ſuch wilde Grapes, and ſo rich a Soyl miniſter onely to corruption. Let not that of the ungrate<g ref="char:EOLhyphen"/>ful <hi>Iſraelites, Exod.</hi> xv. 24. <hi>What ſhall we drink?</hi> be the product of your Mercies and Deliverances alſo; nor think you have eſca<g ref="char:EOLhyphen"/>ped <hi>Pharaoh</hi> and the Red Sea, to be drown<g ref="char:EOLhyphen"/>ed in drunken exceſs upon the ſhore. But, O give unto the Lord the honor due unto his name; worſhip the Lord with holy wor<g ref="char:EOLhyphen"/>ſhip.</p>
+            <p>I know you value your ſelves high upon your Loyalty; and, if gratitude to God did not, even this calleth for more anſwer<g ref="char:EOLhyphen"/>able Returns. Sin (ſay the Schoolmen) is
+<pb n="47" facs="tcp:95419:25"/>
+               <hi>quaſi deicidium,</hi> a kinde of Deicide; doing all that can be done againſt Gods both Honor and Life: And it is <hi>regicidium,</hi> a kinde of Regicide too, and the worſt diſloyalty is wickedneſs. The ſins of the Royal Party may ruine the King, as well as the Arms and Counſels of his Enemies. This is to countermine God, who hath ſet up the King, and by unſeen and unſuſpected trains to blow up him and his Throne. The <hi>holy Hill of Sion,</hi> upon which God hath ſet him, is not proof againſt this Artillery, which at once deſecrateth, and prepareth it for deſtruction.</p>
+            <p>Let me therefore conjure you by the Mercies of God, and your dear loyalty to your King, to ſerve the Lord with fear, and to rejoyce with trembling. Let the Mercy of this day engage you to the duty of it; and as you would approve yourſelves the Kings Loyal Friends, be careful that you make not God his, and your enemy. Fear God who hath ſet up his King; Honor the King, whom God hath ſet up; and Love him the more for that God hath ſet your
+<pb n="48" facs="tcp:95419:26"/>King upon it. That to the Kings Loyal Friends.</p>
+            <p>Secondly, A word now to the Kings diſ<g ref="char:EOLhyphen"/>loyal enemies, and but a word: For as it is not impoſſible, but ſome ſuch may be here, ſince there was a Serpent even in Paradiſe; ſo I am willing to believe there are not many.</p>
+            <p>If any of your Conſciences ſmite you in this, then tremble to oppoſe the Mercy of this Day, leſt you be found fighters againſt God. That of the Prophet <hi>Zechariah</hi> is a wholeſome caveat for you, if you have wit and grace to take it.
+<note place="margin">Zech. ii. 13.</note> 
+               <hi>Be ſilent, O all fleſh, be<g ref="char:EOLhyphen"/>fore the Lord; for he is raiſed up out of his holy Habitation.</hi> It is dangerous oppoſing God at any time, how much more, when he is working ſuch wonders of Power and Mercy as this? Put all the imaginary Pro<g ref="char:EOLhyphen"/>vidences together, with which you amuſed the World of late, and match this if you can. What you had been Twenty years in doing, and perhaps Twenty before that in deſigning, <hi>Suſtulit una dies,</hi> one day daſhed and undid. Some of your Friends and Fel<g ref="char:EOLhyphen"/>lows
+<pb n="49" facs="tcp:95419:26"/>(the Murtherers of the Father) have with their dying breath (and it could not better be laid out) acknowledged Gods immediate hand in bringing back the Son: And are you ſtill blinde to it? or are you ſtronger then he? Shall the prey be taken from the mighty? or will you commit an onſlate upon God? He hath ſet his King upon his holy Hill of <hi>Sion,</hi> and will crawl<g ref="char:EOLhyphen"/>ing duſt pull him down again? If you will yet ſhoot your Arrows againſt Heaven, they ſhall fall back upon your own head. The <hi>Pſalmiſt</hi> himſelf, in the Verſes immedi<g ref="char:EOLhyphen"/>ately before my Text, reads all ſuch their deſtiny. <hi>He that ſitteth in Heaven ſhall laugh, the Lord ſhall have them in deriſion. Then ſhall he ſpeak unto them in his wrath, and vex them in his ſore diſpleaſure.</hi>
+            </p>
+            <p>I ſhall leave you therefore to ſlow, but ſure vengeance, if Loyal Duty prevent not; and leave that Prophetick Impreca<g ref="char:EOLhyphen"/>tion of King <hi>James</hi> of Bleſſed Memory with you. <hi>Maledictus qui maledicit uncto Domini; pereatque interitu Core, qui peccabit in contradictione Core. Curſed is he, that
+<pb n="50" facs="tcp:95419:27"/>curſeth the Anointed of the Lord; and let him periſh in the confuſion of</hi> Core, <hi>that ſhall henceforth dare to ſin in the contradiction of</hi> Core: And let Heaven and Earth, with all that hear me this day, ſay <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:95419:27"/>
+         </div>
+      </body>
+   </text>
+</TEI>
